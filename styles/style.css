@@ -43,7 +43,7 @@ main{
     font-size: 18px;
 }
 hr{
-    border: 1px solid #f09a9a;
+    border: 1px solid #ecc1c1;
     margin-bottom: 27px;
     
 }
@@ -79,6 +79,7 @@ height: 117px;
 }
 /* latest courses */
 .courses{
+    border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* justify-content: space-between; */
@@ -89,8 +90,19 @@ height: 117px;
 } */
 
 .course .course-banner img{
+
     width: 224px;
 height: 104px;
+}
+.course{
+    background-color: #f1efef;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
+.course .course-banner{
+    margin-left: 25px;
+    margin-top: 10px;
 }
 .course-info{
     display: flex;
@@ -107,11 +119,11 @@ height: 104px;
     color: #AEAEAE;
 }
 .course-duration{
-    border-radius: 50px;
-    background-color: rgb(247, 114, 114);
+    border-radius: 10px;
+    background-color: rgb(250, 217, 217);
 }
 .fa-clock{
-    color: rgb(94, 9, 9);
+    color: rgb(12, 4, 4);
 }
 
 /* media queries */
@@ -132,7 +144,7 @@ height: 104px;
     }
 }
 
-@media screen (min-width:688px) and (max-width:992px){
+@media screen {
     .players{
     background: black;
     }
